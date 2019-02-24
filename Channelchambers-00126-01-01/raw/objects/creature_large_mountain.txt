@@ -7,7 +7,8 @@ creature_large_mountain
 	[NAME:mountain goat:mountain goats:mountain goat]
 	[CASTE_NAME:mountain goat:mountain goats:mountain goat]
 	[GENERAL_CHILD_NAME:mountain goat kid:mountain goat kids]
-	[CREATURE_TILE:78][COLOR:7:0:1]
+	[CREATURE_TILE:'g'][COLOR:7:0:1]
+	[CREATURE_CLASS:MAMMAL]
 	[PREFSTRING:beards]
 	[PREFSTRING:long horns]
 	[PREFSTRING:surefootedness]
@@ -158,13 +159,14 @@ creature_large_mountain
 	[APPLY_CREATURE_VARIATION:STANDARD_QUADRUPED_GAITS:900:750:600:439:1900:2900] 20 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
-				
+
 [CREATURE:MARMOT_HOARY]
 	[DESCRIPTION:A large rodent that lives in groups in the high mountains.]
 	[NAME:hoary marmot:hoary marmots:hoary marmot]
 	[CASTE_NAME:hoary marmot:hoary marmots:hoary marmot]
 	[GENERAL_CHILD_NAME:hoary marmot pup:hoary marmot pups]
-	[CREATURE_TILE:76][COLOR:7:0:0]
+	[CREATURE_TILE:'m'][COLOR:7:0:0]
+	[CREATURE_CLASS:MAMMAL]
 	[PETVALUE:50]
 	[NATURAL][PET_EXOTIC]
 	[STANDARD_GRAZER]
@@ -305,12 +307,13 @@ creature_large_mountain
 	[APPLY_CREATURE_VARIATION:STANDARD_QUADRUPED_GAITS:900:750:600:439:1900:2900] 20 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
-				
+
 [CREATURE:GNOME_MOUNTAIN]
 	[DESCRIPTION:A tiny, jolly humanoid creature that dwells in the fair mountains.  They are known to enjoy drinking liquor and don't care whether it's theirs or not.]
 	[NAME:mountain gnome:mountain gnomes:mountain gnome]
 	[CASTE_NAME:mountain gnome:mountain gnomes:mountain gnome]
-	[CREATURE_TILE:66][COLOR:0:0:1]
+	[CREATURE_TILE:'g'][COLOR:0:0:1]
+	[CREATURE_CLASS:MAMMAL]
 	[GRASSTRAMPLE:0][GOOD]
 	[BIOME:MOUNTAIN]
 	[LARGE_ROAMING][FREQUENCY:10]
@@ -542,7 +545,8 @@ creature_large_mountain
 	[DESCRIPTION:A tiny, foul-tempered humanoid creature that dwells in the evil mountains.  They are known to enjoy drinking liquor and will take any unguarded supplies of booze.]
 	[NAME:dark gnome:dark gnomes:dark gnome]
 	[CASTE_NAME:dark gnome:dark gnomes:dark gnome]
-	[CREATURE_TILE:66][COLOR:3:0:0]
+	[CREATURE_TILE:'g'][COLOR:3:0:0]
+	[CREATURE_CLASS:MAMMAL]
 	[GRASSTRAMPLE:0][EVIL]
 	[BIOME:MOUNTAIN]
 	[LARGE_ROAMING][FREQUENCY:10]
